@@ -1,0 +1,14 @@
+https mtd :
+get = to fetch
+put - to update
+post = to create
+delete = to delete
+
+example
+
+url = "https://example.com/id=1/uint/23"
+
+response = request.get (url)  get mtd
+response = request.post(url , data={'key' : 'value'}) post mtd
+response = request.put(url , data={'key' : 'value'})  put mtd
+response = request.delete (url)
